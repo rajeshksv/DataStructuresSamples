@@ -111,6 +111,8 @@ public class BinarySearchTree extends BinaryTree {
 //		System.out.println(bst.maximum().data);
 //		System.out.println(bst.minimum().data);
 		bst.delete(new Node(20));
+		bst.delete(new Node(14));
+		bst.delete(new Node(42));
 		bst.printInorder();
 	}
 }
